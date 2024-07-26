@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-contract StorageVictim {
+contract CorrectedStorageVictim {
+
     address immutable owner;
 
     struct Storage {
@@ -15,18 +16,18 @@ contract StorageVictim {
         owner = msg.sender;
     }
 
-    function store(uint256 amount) public {
+    function store(uint256 amount) external {
 
         storages[msg.sender] = Storage(msg.sender, amount);
     }
 
-    function getStore() public view returns (address, uint256) {
+    function getStore() external view returns (address, uint256) {
         Storage storage str = storages[msg.sender];
 
         return (str.user, str.amount);
     }
 
-    function getOwner() public view returns (address) {
+    function getOwner() external view returns (address) {
         return owner;
     }
 }
