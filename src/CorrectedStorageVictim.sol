@@ -16,13 +16,8 @@ contract StorageVictim {
     }
 
     function store(uint256 amount) public {
-        Storage memory str;
 
-        str.user = msg.sender;
-
-        str.amount = amount;
-
-        storages[msg.sender] = str;
+        storages[msg.sender] = Storage(msg.sender, amount);
     }
 
     function getStore() public view returns (address, uint256) {
