@@ -1,10 +1,10 @@
 ## Metacrafters Smart Contract Audit Report
 
 
-| Contract Name: StorageVictim        | Version: 0.4.23         |
-|-------------------------------------|-------------------------|
-| **Audited By: Michael Dean Oyewole** | **Date: 22/07/2024**    |
-| **No. of contracts: 1**             | **No. of Functions: 4** |
+| Contract Name: StorageVictim | Version: 0.4.23         |
+|------------------------------|-------------------------|
+| **Audited By: Michael Dean** | **Date: 26/07/2024**    |
+| **No. of contracts: 1**      | **No. of Functions: 4** |
 
 ## Findings
 

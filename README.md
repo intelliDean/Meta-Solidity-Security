@@ -8,7 +8,7 @@ This repository includes a simple contract written in Solidity, a programming la
 
 ## Authors
 
-Ekarika Nsemeke
+Michael Dean Oyewole
 
 ## License
 
